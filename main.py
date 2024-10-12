@@ -25,4 +25,14 @@
 # if flag:
 #     print("not prime")
 # else:
-#     print("prime")            
+#     print("prime")   
+       #project
+number=str(int(input("enter to check if number is armstrong or not")))
+number_sum=0
+for i in number:
+    number_sum + number_sum + int(i)**len(number)
+if int==number_sum:
+    print( number, "is an armstrong")
+else:
+    print( number, "is not an armstrong")    
+         
